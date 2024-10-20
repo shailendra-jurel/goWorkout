@@ -1,6 +1,7 @@
+//  HomePage.jsx
 import React, { useState } from 'react';
 import GymSection from './GymSection';
-import HomeExercises from './HomeExercises';
+import HomeWorkout from './HomeExercises';
 import MorningRoutine from './MorningRoutine';
 import Meditation from './Meditation';
 
@@ -12,7 +13,7 @@ const HomePage = () => {
       case 'gym':
         return <GymSection />;
       case 'homeWorkout':
-        return <HomeExercises />;
+        return <HomeWorkout />;
       case 'morningRoutine':
         return <MorningRoutine />;
       case 'meditation':

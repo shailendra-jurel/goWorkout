@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import GymSection from './components/GymSection';
-import HomeExercises from './components/HomeExercises';
+import HomeWorkout from './components/HomeExercises';
 import MorningRoutine from './components/MorningRoutine';
 import Meditation from './components/Meditation';
 import './App.css';
@@ -13,7 +13,7 @@ const App = () => {
       case 'gym':
         return <GymSection />;
       case 'homeWorkout':
-        return <HomeExercises />;
+        return <HomeWorkout />;
       case 'morningRoutine':
         return <MorningRoutine />;
       case 'meditation':

@@ -1,3 +1,5 @@
+//  store.js
+
 import { createStore } from 'redux';
 import workoutReducer from './reducers';
 import { loadState, saveState } from '../utils/localStorage';

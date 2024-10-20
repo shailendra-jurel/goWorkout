@@ -1,3 +1,5 @@
+// reducer.js
+
 const initialState = {
     workouts: JSON.parse(localStorage.getItem('workouts')) || {}
   };

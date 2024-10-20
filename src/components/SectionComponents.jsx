@@ -1,4 +1,5 @@
-// MorningRoutine.jsx
+//SectionComponents.jsx
+
 import React from 'react';
 import WorkoutSection from './WorkoutSection';
 
